@@ -1,0 +1,40 @@
+#main {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.navbar-btn:nth-child(1):not(.black):hover > img {
+  content: url('@/assets/icons/ic_menu_bar_hover.svg');
+}
+
+.navbar-btn:nth-child(2):not(.black):hover > img {
+  content: url('@/assets/icons/ic_star_empty_hover.svg');
+}
+
+.navbar-btn:nth-child(3):not(.black):hover > img {
+  content: url('@/assets/icons/ic_files_hover.svg');
+}
+
+.navbar-btn:nth-child(4):not(.black):hover > img {
+  content: url('@/assets/icons/ic_smile_circle_hover.svg');
+}
+
+.navbar-btn:nth-child(1).black > img {
+  content: url('@/assets/icons/ic_menu_bar_active.svg');
+}
+
+.navbar-btn:nth-child(2).black > img {
+  content: url('@/assets/icons/ic_star_empty_active.svg');
+}
+
+.navbar-btn:nth-child(3).black > img {
+  content: url('@/assets/icons/ic_files_active.svg');
+}
+
+.navbar-btn:nth-child(4).black > img {
+  content: url('@/assets/icons/ic_smile_circle_active.svg');
+}
